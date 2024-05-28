@@ -8,12 +8,16 @@
   color-scheme: dark;
 }
 
-body {
+/*body {
   height: 20vh;
   display: grid;
   overflow: hidden;
   place-content: center;
   background-color: var(--body-color)
+}*/
+
+body {
+  background-color: #C6B9CD;
 }
 
 nav {
@@ -66,6 +70,9 @@ nav {
       transition: 0.2s 0.2s, scale 0s 0.4s;
     }
   }
+}
+.home {
+  padding: 10px;
 }
 
 img {
