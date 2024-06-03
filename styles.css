@@ -1,23 +1,15 @@
 :root {
-  --body-color: #C6B9CD;
-  --text-color: #FCF5C7;
-  --hover-color: #ebd9ff;
-  --accent-color: #DA7422;
+  --body-color: #5CA0FF;
+  --text-color: #99C3FF;
+  --hover-color: #FED472;
+  --accent-color: #FFADB0;
   --underline-thickness: 3px;
 
   color-scheme: dark;
 }
 
-/*body {
-  height: 20vh;
-  display: grid;
-  overflow: hidden;
-  place-content: center;
-  background-color: var(--body-color)
-}*/
-
 body {
-  background-color: #C6B9CD;
+  background-color: #5CA0FF;
 }
 
 nav {
@@ -71,6 +63,7 @@ nav {
     }
   }
 }
+
 .home {
   padding: 10px;
 }
@@ -80,4 +73,42 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 10px;
 }
+
+
+h1 {
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  font-family: "Caveat Brush", sans-serif;
+  font-size: 120px;
+  line-height: 80%;
+  white-space: nowrap;
+  transition: 200ms ease-in-out;
+
+  background-image: url("https://raw.githubusercontent.com/cicero-mello/codepen/main/text-mask/ocean-waves.gif");
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 513px) {
+  h1 { font-size: 84px; }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
