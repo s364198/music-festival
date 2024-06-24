@@ -403,7 +403,7 @@ p10{
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #99C3FF;
   color: white;
   transform: rotateY(180deg);
 }
