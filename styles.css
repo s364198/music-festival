@@ -23,7 +23,8 @@ nav {
   padding: 0;
   display: flex;
   text-transform: uppercase;
-  font: bold 1.5rem sans-serif;
+  font-size: 25px;
+/*  font: bold 1.5rem sans-serif;*/
 
   & a {
     color: var(--text-color);
@@ -110,6 +111,9 @@ h1 {
   color: #FED472;
   text-align: center;
 }
+.text2{
+  text-align: center;
+}
 h2{
   font-size: 100px;
 }
@@ -141,7 +145,46 @@ p1{
   width: 60%;
   padding: 10px;
   text-align: center;
+    color: #FED472;
 }
+
+
+.images {
+  float: left;
+  padding: 18px;
+}
+
+.images1 {
+  float: left;
+  padding: 18px;
+}
+
+.images2 {
+  float: left;
+  padding: 18px;
+}
+
+.images3 {
+  float: left;
+  padding: 18px;
+}
+
+.images4 {
+  float: left;
+  padding: 18px;
+}
+
+.images5 {
+  float: left;
+  padding: 18px;
+}
+
+footer{
+  padding: 5px;
+  padding-top: 50px;
+  text-align: center;
+}
+
 
 
 
@@ -370,7 +413,7 @@ p10{
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 600px;
   height: 300px;
   perspective: 1000px;
 }
@@ -398,7 +441,7 @@ p10{
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: ;
   color: black;
 }
 
@@ -415,8 +458,9 @@ p10{
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 0 10px;
+  padding-bottom: 20px;
 }
 
 /* Remove extra left and right margins, due to padding */
