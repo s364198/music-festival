@@ -8,6 +8,7 @@
   color-scheme: dark;
 }
 
+
 body {
   background-color: #5CA0FF;
   font-family: "Oswald", sans-serif;
@@ -121,8 +122,6 @@ p {
   font-size: 30px;
 }
 
-
-
 p5{
   font-size: 25px;
 }
@@ -184,8 +183,6 @@ footer{
   padding-top: 50px;
   text-align: center;
 }
-
-
 
 
 /*LINE UP BUTTONS START*/
@@ -456,7 +453,7 @@ p10{
   box-sizing: border-box;
 }
 /* Float four columns side by side */
-.column {
+.column2 {
   float: left;
   width: 50%;
   padding: 0 10px;
@@ -488,3 +485,194 @@ p10{
   text-align: center;
 }
 /*cards end */
+
+
+
+
+
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container7 {
+  position: relative;
+  font-family: Arial;
+}
+
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+/*tr:nth-child(even) {
+   background-color: #FFADB0;
+}*/
+
+tr:nth-child(odd) {
+   background-color: #FFADB0;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+
+/*  TICKET CARDS START*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+:root {
+  --color-primary: #99C3FF;
+  --color-primary-dark: #FED471;
+  --color-primary-light: #FFC191;
+  --color-secondary: #F8F3C9;
+  --color-tertiary: #F8F3C9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-tertiary);
+  background-color: #B1E5F2;
+  overflow: hidden;
+  height: 100vh;
+}*/
+
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 180px;
+  border-radius: 16px;
+  background-color: var(--color-primary);
+}
+
+.bottom-card .first-half {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.bottom-card .last-half {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.top-card {
+  float: left;
+  width: 140px;
+  height: 140px;
+  z-index: 2;
+  margin-left: -100px;
+  background-color: var(--color-secondary);
+  position: relative;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card-info {
+  margin: auto;
+  text-align: left;
+  width: 200px;
+  height: 100%;
+  left: -32px;
+  position: relative;
+  padding: 0.8rem;
+}
+
+.card-info > h2 {
+  font-weight: 800;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--color-secondary);
+  height: 32%;
+  line-height: 1.6rem;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1.6rem;
+}
+
+.card-info > h4 {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--color-tertiary);
+  line-height: 2rem;
+  margin: auto;
+}
+
+.card-info > h6 {
+  font-weight: 400;
+  font-size: 11px;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--color-tertiary);
+  line-height: 2rem;
+  margin: auto;
+}
+
+.spacing {
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+/*TICKET CARDS END*/
